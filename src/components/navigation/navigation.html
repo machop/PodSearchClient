@@ -1,0 +1,12 @@
+<template bindable="router">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand">Podsök</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+        <a href.bind="row.href">${row.title}</a>
+      </li>
+    </ul>
+  </nav>
+</template>

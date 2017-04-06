@@ -1,0 +1,11 @@
+<template>
+  <require from="bootstrap/css/bootstrap.min.css"></require>
+  <require from="components/navigation/navigation.html"></require>
+  <require from="./app.css"></require>
+  <navigation router.bind="router" class="primary-navigation"></navigation>
+  <div class="page-host router-placement">
+    <router-view>
+        <!-- Top level views are rendered here -->
+    </router-view>
+  </div>
+</template>

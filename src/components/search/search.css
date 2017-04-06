@@ -1,0 +1,24 @@
+.large-search {
+    margin-top: 20px;
+    margin-left: 24%;
+    font-size: 72px;
+    line-height: 72px;
+    color: #393939;
+    font-weight: 700;    
+}
+
+.search-background {
+    position: relative;
+    min-height: 1000px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/src/resources/images/background.jpg)no-repeat center center;
+    background-size: cover;        
+}
+
+.header-title {
+    font-size: 6em;
+    text-align: center;
+}
+
+.top-space {
+    height: 200px;
+}

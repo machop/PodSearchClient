@@ -1,0 +1,12 @@
+<template>
+<require from="./search.css"></require>
+<div class="search-background">
+<div class="top-space"></div>
+<h1 class="header-title">Sök podcasts</h1>
+  <input type="text" class="large-search" autocomplete="off">
+  <button type="button" class="btn btn-default" aria-label="Left Align" click.delegate="searchPodcast()">
+    <span class="" aria-hidden="true">Test</span>  
+  </button>
+  <span textcontent.bind="podcastName"></span>
+</div>
+</template>
